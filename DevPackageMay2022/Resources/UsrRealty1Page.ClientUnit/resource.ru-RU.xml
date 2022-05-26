@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Недвижимость&quot;" />
+			<Item Name="LocalizableStrings.CommissionCaption.Value" Value="Комиссия, USD" />
+			<Item Name="LocalizableStrings.FLOATcdd9157df57745dcb20d28645b2a38f2Tip.Value" Value="В условных единицах" />
+			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="Моя кнопка!" />
+			<Item Name="LocalizableStrings.RunWebServiceButtonCaption.Value" Value="Запуск веб-сервиса" />
+			<Item Name="LocalizableStrings.Tab74cfa07eTabLabelTabCaption.Value" Value="Просмотры" />
+			<Item Name="LocalizableStrings.UsrSchema7e85a507Detail9869938fDetailCaptionOnPage.Value" Value="Просмотр недвижимости" />
+			<Item Name="LocalizableStrings.ValueMustBeGreaterThanZero.Value" Value="Значение должно быть больше нуля." />
+		</Items>
+	</Group>
+</Resources>

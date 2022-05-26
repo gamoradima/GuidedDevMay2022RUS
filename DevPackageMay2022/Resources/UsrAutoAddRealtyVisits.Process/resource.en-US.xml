@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask2.Caption" Value="Добавить просмотр" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Value.2a2cfe43-b686-4b73-9be4-aa9ca1294848.displayValue" Value="Автоматически созданный просмотр" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Value.2a2cfe43-b686-4b73-9be4-aa9ca1294848.value" Value="Автоматически созданный просмотр" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="Created record Id" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Кол-во &gt; 0" />
+			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="конец цикла" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="уменьшение кол-ва" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="добавлена недвижимость" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="BaseElements.TerminateEvent1.Caption" Value="это конец!" />
+			<Item Name="Caption" Value="Автоматическое добавление просмотров недвижимости" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="Количество просмотров" />
+			<Item Name="Parameters.ProcessSchemaParameter1.DisplayValue" Value="5" />
+		</Items>
+	</Group>
+</Resources>

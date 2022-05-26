@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "51c71060-5fc6-4d77-ae2d-0744236f1c97",
+    "Name": "UsrAutoAddRealtyVisits",
+    "ModifiedOnUtc": "\/Date(1653481626000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Автоматическое добавление просмотров недвижимости",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c73f76cd-d8a4-4427-a88f-a52904a060f1",
+    "Name": "UsrDecimalOutputPage",
+    "ModifiedOnUtc": "\/Date(1653395992000)\/",
+    "Parent": {
+      "UId": "5826ff24-46c6-4169-9223-2aaad9ec2e18",
+      "Name": "BasePageSimpleProcessTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница вывода результатов"
+  }
+}

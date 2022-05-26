@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Кейс 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Stages.Stage1.Caption" Value="1. Черновик" />
+			<Item Name="Stages.Stage2.Caption" Value="2. Активно" />
+			<Item Name="Stages.Stage3.Caption" Value="3. Приостановлено" />
+			<Item Name="Stages.Stage4.Caption" Value="4. Сделка закрыта" />
+		</Items>
+	</Group>
+</Resources>
