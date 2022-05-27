@@ -38,6 +38,14 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 					"detailColumn": "UsrParentRealty",
 					"masterColumn": "Id"
 				}
+			},
+			"AccountAddressDetailV2": {
+				"schemaName": "AccountAddressDetailV2",
+				"entitySchemaName": "AccountAddress",
+				"filter": {
+					"detailColumn": "Account",
+					"masterColumn": "UsrAccount"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
@@ -271,7 +279,7 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 					"enabled": false,
 					"caption": {
 						"bindTo": "Resources.Strings.CommissionCaption"
-					},
+					}
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -282,7 +290,7 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 				"name": "MyButton",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 5,
@@ -309,10 +317,10 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 				"name": "RunWebServiceButton",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
-						"column": 12,
-						"row": 5,
+						"column": 0,
+						"row": 6,
 						"layoutName": "ProfileContainer"
 					},
 					"itemType": 5,
@@ -327,7 +335,7 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 6
-			},			
+			},
 			{
 				"operation": "insert",
 				"name": "LOOKUPeedb7efc-c224-405a-8797-c86d5885ce31",
@@ -425,6 +433,25 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 			},
 			{
 				"operation": "insert",
+				"name": "LOOKUPaa25b557-19bd-4b3f-b7c3-f372f2fcc622",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrAccount",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
 				"name": "Tab74cfa07eTabLabel",
 				"values": {
 					"caption": {
@@ -447,6 +474,17 @@ define("UsrRealty1Page", ["ServiceHelper"], function(ServiceHelper) {
 				"parentName": "Tab74cfa07eTabLabel",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "AccountAddressDetailV2",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab74cfa07eTabLabel",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",

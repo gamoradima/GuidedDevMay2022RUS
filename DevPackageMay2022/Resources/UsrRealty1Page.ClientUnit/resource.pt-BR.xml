@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Недвижимость&quot;" />
+			<Item Name="LocalizableStrings.AccountAddressDetailV2DetailCaptionOnPage.Value" Value="Endereços" />
 		</Items>
 	</Group>
 </Resources>

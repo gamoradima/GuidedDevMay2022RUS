@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "42727ab6-00f2-44fb-b953-6099f59c5772",
+    "Name": "UsrGetGoldRateMainProcess",
+    "ModifiedOnUtc": "\/Date(1653654783000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Главный процесс считывания курса золота",
+    "DependsOn": []
+  }
+}
